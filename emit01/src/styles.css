@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  border: 0;
+}
+
+img.ball,
+img.bar {
+  width: 4px;
+  height: 4px;
+  background-color: blue;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+img.bar {
+  width: 30px;
+  left: 185px;
+  top: 350px;
+}
+
+#stage {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  margin: 50px 50px 10px 50px;
+}
+
+#report {
+  float: left;
+  border: 0px solid black;
+  width: 400px;
+  height: 400px;
+  margin: 50px 50px 10px 50px;
+}
